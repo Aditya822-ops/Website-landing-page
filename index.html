@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Xypo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <img src="images/logo.png" class="logo">
+      </div>
+      <div class="header-text">
+        <h1>The purpose is to<br>teach, bringing learning to people</h1>
+        <span class="square"></span>
+        <p>Our main maotive is to give information to people so <br> that the pople have right knowledge
+           <br> about the current affairs</p>
+           <button class="common-btn">Read More</button>
+           <div class="line">
+             <span class="line-1"></span><br>
+             <span class="line-2"></span><br>
+             <span class="line-3"></span>
+           </div>
+
+      </div>
+
+    </section>
+
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+  <!--about  -->
+
+  <section id="about">
+    <div class="about-left-col">
+      <img src="images/about.png" alt="">
+    </div>
+    <div class="about-right-col">
+      <div class="about-text">
+        <h1>About Us</h1>
+        <span class="square"></span>
+        <h3>Expo is a non profitable educational <br>oganization, which helps people to gain <br>knowledge at a ver cheap and sattisfying prices</h3><br><br>
+     <div class="line">
+       <span class="line-1"></span><br>
+       <span class="line-2"></span><br>
+       <span class="line-3"></span>
+     </div>
+
+     <h2>"Learning is not attained by chance, it must be sought
+       for with ardor and attended to with diligence"</h2>
+       <h3>---Abigail Adams</h3>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--FEATURES-->
+  <section id="features">
+    <div class="feature-row">
+      <div class="feature-col">
+        <img src="images/pic-1.png">
+        <h4>LEARN Anywhere</h4>
+        <p>Switch between your computer, tablet or mobile device.</p>
+      </div>
+      <div class="feature-col">
+        <img src="images/pic-3.png">
+        <h4>Expert Teachers</h4>
+        <p>Learn from industry experts who are passionate abot teaching.</p>
+      </div>
+      <div class="feature-col">
+        <img src="images/pic-1.png">
+        <h4>Unlimited Access</h4>
+        <p>Choose what you'd like to learn from our extensive subscription library</p>
+      </div>
+    </div>
+    <div class="feature-btn">
+      <div class="line">
+        <span class="line-1"></span><br>
+        <span class="line-2"></span><br>
+        <span class="line-3"></span>
+      </div>
+      <button class="common-btn">Start Free Trial</button>
+    </div>
+  </section>
+
+
+<!---courses--->
+  <section id=courses>
+    <div class="container course-row">
+      <div class ="course-left-col">
+        <div class="course-text">
+          <h1>Browse Our Top <br> Courses</h1>
+          <span class="square"></span>
+          <p>Browse our top cources by famous proffesors <br>who have 10+ years experience </p><br><br>
+          <button class="common-btn">View all Courses</button>
+        </div>
+      </div>
+      <div"course-right-col">
+        <img src="images/course.png" height="300px" width="400px">
+      </div>
+    </div>
+  </section>
+
+<!--Offer-->
+
+<section id="offer">
+  <div class="about-left-col">
+    <img src="images/offer.png" alt="">
+  </div>
+  <div class="about-right-col">
+    <div class="about-text">
+      <h1>Limitless learning,<br>Limitless possibilities</h1>
+      <span class="square"></span>
+      <h3>Here at Expooganization,we give students
+         offers on many of the courses upto 90%,
+         we here at Expo don't believe in earning money
+           We believe in giving students a very high
+           chance of selection in a variety of jobs</h3><br><br>
+           <button class="common-btn">Start Free Trial</button>
+   <div class="line">
+     <span class="line-1"></span><br>
+     <span class="line-2"></span><br>
+     <span class="line-3"></span>
+   </div>
+
+
+
+    </div>
+
+  </div>
+</section>
+<!--contact-->
+<section id="container">
+  <div class="container contact-row">
+    <div class="contact-left-col">
+      <h1>Sign Up to join our <br> learning comunity</h1>
+      <form >
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <input type="password" placeholder="Enter Password">
+        <div class="btn-box">
+          <button class="common-btn">Sign Up</button>
+          <button class="common-btn">Start Free Trial</button>
+        </div>
+      </form>
+    </div>
+    <div class="contact-right-col">
+      <img src="images/contact.png">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function(){
+        if (sideNav.style.right == "-250px"){sideNav.style.right = "0";
+      }
+        else {
+          sideNav.style.right = "-250px";
+        }
+    }
+
+
+
+    </script>
+
+  </body>
+</html>
