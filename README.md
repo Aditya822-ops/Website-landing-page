@@ -1,4 +1,4 @@
 Aditya Rao
 Class 8E
-Sanskriti scholl,
+Sanskriti school,
 chanakyapuri.
